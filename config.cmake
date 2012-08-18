@@ -29,55 +29,55 @@
 #cmakedefine BSD
 
 /* Determines if the compilers supports always_inline attribute. */
-#cmakedefine C_ATTRIBUTE_ALWAYS_INLINE
+#cmakedefine C_ATTRIBUTE_ALWAYS_INLINE 1
 
 /* Determines if the compilers supports fastcall attribute. */
-#cmakedefine C_ATTRIBUTE_FASTCALL
+#cmakedefine C_ATTRIBUTE_FASTCALL 1
 
 /* Define to 1 to use inlined memory functions in cpu core */
-#define C_CORE_INLINE @C_CORE_INLINE@
+#cmakedefine C_CORE_INLINE 1
 
 /* Define to 1 to enable internal debugger, requires libcurses */
-#define C_DEBUG @C_DEBUG@
+#cmakedefine C_DEBUG 1
 
 /* Define to 1 if you want serial passthrough support (Win32, Posix and OS/2).
    */
-#define C_DIRECTSERIAL @C_DIRECTSERIAL@
+#cmakedefine C_DIRECTSERIAL 1
 
 /* Define to 1 to use x86 dynamic cpu core */
-#define C_DYNAMIC_X86 @C_DYNAMIC_X86@
+#cmakedefine C_DYNAMIC_X86 1
 
 /* Define to 1 to use recompiling cpu core. Can not be used together with the
    dynamic-x86 core */
-#define C_DYNREC @C_DYNREC@
+#cmakedefine C_DYNREC 1
 
 /* Define to 1 to enable floating point emulation */
-#define C_FPU @C_FPU@
+#cmakedefine C_FPU 1
 
 /* Define to 1 to use a x86 assembly fpu core */
-#define C_FPU_X86 @C_FPU_X86@
+#cmakedefine C_FPU_X86 1
 
 /* Determines if the compilers supports attributes for structures. */
-#cmakedefine C_HAS_ATTRIBUTE
+#cmakedefine C_HAS_ATTRIBUTE 1
 
 /* Determines if the compilers supports __builtin_expect for branch
    prediction. */
-#cmakedefine C_HAS_BUILTIN_EXPECT
+#cmakedefine C_HAS_BUILTIN_EXPECT 1
 
 /* Define to 1 if you have the mprotect function */
-#cmakedefine C_HAVE_MPROTECT
+#cmakedefine C_HAVE_MPROTECT 1
 
 /* Define to 1 to enable heavy debugging, also have to enable C_DEBUG */
-#define C_HEAVY_DEBUG @C_HEAVY_DEBUG@
+#cmakedefine C_HEAVY_DEBUG 1
 
 /* Define to 1 to enable IPX over Internet networking, requires SDL_net */
-#define C_IPX @C_IPX@
+#cmakedefine C_IPX 1
 
 /* Define to 1 to enable internal modem support, requires SDL_net */
-#define C_MODEM @C_MODEM@
+#cmakedefine C_MODEM 1
 
 /* Define to 1 to use opengl display output support */
-#define C_OPENGL @C_OPENGL@
+#cmakedefine C_OPENGL 1
 
 /* Define to 1 to enable SDL_sound support */
 #cmakedefine C_SDL_SOUND
@@ -86,13 +86,13 @@
 #cmakedefine C_SET_PRIORITY
 
 /* Define to 1 to enable screenshots, requires libpng */
-#define C_SSHOT @C_SSHOT@
+#cmakedefine C_SSHOT 1
 
 /* The type of cpu this target has */
 #define C_TARGETCPU @C_TARGETCPU@
 
 /* Define to 1 to use a unaligned memory access */
-#define C_UNALIGNED_MEMORY @C_UNALIGNED_MEMORY@
+#cmakedefine C_UNALIGNED_MEMORY 1
 
 /* define to 1 if you have XKBlib.h and X11 lib */
 #cmakedefine C_X11_XKB
@@ -101,61 +101,61 @@
 #cmakedefine DB_HAVE_NO_POWF
 
 /* struct dirent has d_type */
-#cmakedefine DIRENT_HAS_D_TYPE
+#cmakedefine DIRENT_HAS_D_TYPE 1
 
 /* environ can be included */
-#define ENVIRON_INCLUDED @ENVIRON_INCLUDED@
+#cmakedefine ENVIRON_INCLUDED 1
 
 /* environ can be linked */
-#define ENVIRON_LINKED @ENVIRON_LINKED@
+#cmakedefine ENVIRON_LINKED 1
 
 /* Define to 1 to use ALSA for MIDI */
-#cmakedefine HAVE_ALSA
+#cmakedefine HAVE_ALSA 1
 
 /* Define to 1 if you have the <ddraw.h> header file. */
-#cmakedefine HAVE_DDRAW_H
+#cmakedefine HAVE_DDRAW_H 1
 
 /* Define to 1 if you have the <inttypes.h> header file. */
-#cmakedefine HAVE_INTTYPES_H
+#cmakedefine HAVE_INTTYPES_H 1
 
 /* Define to 1 if you have the `asound' library (-lasound). */
-#cmakedefine HAVE_LIBASOUND
+#cmakedefine HAVE_LIBASOUND 1
 
 /* Define to 1 if you have the <memory.h> header file. */
-#cmakedefine HAVE_MEMORY_H
+#cmakedefine HAVE_MEMORY_H 1
 
 /* Define to 1 if you have the <netinet/in.h> header file. */
-#cmakedefine HAVE_NETINET_IN_H
+#cmakedefine HAVE_NETINET_IN_H 1
 
 /* Define to 1 if you have the <pwd.h> header file. */
-#cmakedefine HAVE_PWD_H
+#cmakedefine HAVE_PWD_H 1
 
 /* Define to 1 if you have the <stdint.h> header file. */
-#cmakedefine HAVE_STDINT_H
+#cmakedefine HAVE_STDINT_H 1
 
 /* Define to 1 if you have the <stdlib.h> header file. */
-#cmakedefine HAVE_STDLIB_H
+#cmakedefine HAVE_STDLIB_H 1
 
 /* Define to 1 if you have the <strings.h> header file. */
-#cmakedefine HAVE_STRINGS_H
+#cmakedefine HAVE_STRINGS_H 1
 
 /* Define to 1 if you have the <string.h> header file. */
-#cmakedefine HAVE_STRING_H
+#cmakedefine HAVE_STRING_H 1
 
 /* Define to 1 if you have the <sys/socket.h> header file. */
-#cmakedefine HAVE_SYS_SOCKET_H
+#cmakedefine HAVE_SYS_SOCKET_H 1
 
 /* Define to 1 if you have the <sys/stat.h> header file. */
-#cmakedefine HAVE_SYS_STAT_H
+#cmakedefine HAVE_SYS_STAT_H 1
 
 /* Define to 1 if you have the <sys/types.h> header file. */
-#cmakedefine HAVE_SYS_TYPES_H
+#cmakedefine HAVE_SYS_TYPES_H 1
 
 /* Define to 1 if you have the <unistd.h> header file. */
-#cmakedefine HAVE_UNISTD_H
+#cmakedefine HAVE_UNISTD_H 1
 
 /* Compiling on GNU/Linux */
-#cmakedefine LINUX
+#cmakedefine LINUX 1
 
 /* Compiling on Mac OS X */
 #cmakedefine MACOSX
@@ -203,7 +203,7 @@
 #cmakedefine SIZEOF_UNSIGNED_SHORT @SIZEOF_UNSIGNED_SHORT@
 
 /* Define to 1 if you have the ANSI C header files. */
-#cmakedefine STDC_HEADERS
+#define STDC_HEADERS 1
 
 /* Define to 1 if your <sys/time.h> declares `struct tm'. */
 #cmakedefine TM_IN_SYS_TIME
@@ -229,7 +229,7 @@
 /* Define to `__inline__' or `__inline' if that's what the C compiler
    calls it, or to nothing if 'inline' is not supported under any name.  */
 #ifndef __cplusplus
-#define inline
+#cmakedefine inline @INLINE@
 #endif
 
 /* Define to `unsigned int' if <sys/types.h> does not define. */

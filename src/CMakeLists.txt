@@ -30,4 +30,6 @@ TARGET_LINK_LIBRARIES(dosbox
     misc
     dosboxdebug
     ${SDL_LIBRARY}
+    ${ALSA_LIBRARY}
+    ${OPENGL_LIBRARIES}
     ${EXTERNAL_LIBRARIES})

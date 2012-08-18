@@ -1,11 +1,11 @@
 
 ADD_LIBRARY(serialport
- directserial.cpp
- libserial.cpp
- misc_util.cpp
- nullmodem.cpp
- serialdummy.cpp
- serialport.cpp
- softmodem.cpp
+     directserial.cpp directserial.h
+     libserial.cpp libserial.h
+     misc_util.cpp misc_util.h
+     nullmodem.cpp nullmodem.h
+     serialdummy.cpp serialdummy.h
+     serialport.cpp
+     softmodem.cpp softmodem.h
  )
 

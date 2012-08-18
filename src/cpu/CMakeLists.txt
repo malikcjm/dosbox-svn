@@ -8,7 +8,9 @@ ADD_LIBRARY(cpu
     core_simple.cpp
     cpu.cpp
     flags.cpp
-    modrm.cpp
+    modrm.cpp modrm.h
     paging.cpp
+    instructions.h
+    lazyflags.h
 )
 
