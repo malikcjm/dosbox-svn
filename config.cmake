@@ -20,7 +20,7 @@
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
-#define VERSION "0.74"
+
 
 /* Define if building universal (internal helper macro) */
 #cmakedefine AC_APPLE_UNIVERSAL_BUILD
@@ -209,7 +209,7 @@
 #cmakedefine TM_IN_SYS_TIME
 
 /* Version number of package */
-#cmakedefine VERSION
+#define VERSION "@PROJECT_VERSION_MAJOR@.@PROJECT_VERSION_MINOR@"
 
 /* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
    significant byte first (like Motorola and SPARC, unlike Intel). */
