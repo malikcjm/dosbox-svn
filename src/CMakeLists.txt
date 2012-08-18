@@ -10,7 +10,9 @@ ADD_SUBDIRECTORY(shell)
 
 ADD_EXECUTABLE(dosbox
     WIN32
-    dosbox.cpp)
+    dosbox.cpp
+    winres.rc
+)
 
 
 TARGET_LINK_LIBRARIES(dosbox

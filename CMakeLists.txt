@@ -29,8 +29,6 @@ IF(WIN32)
     SET(C_OPENGL 0)
     SET(C_TARGETCPU "X86")
     SET(C_FPU 0)
-    include_directories("C:\\Users\\malik\\workspace\\curses\\")
-    SET(CURSES_LIBRARY "C:\\Users\\malik\\workspace\\curses\\pdcurses.lib")
 ENDIF()
 
 FIND_PACKAGE(SDL REQUIRED)
